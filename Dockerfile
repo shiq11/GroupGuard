@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM node:18
 
 # تثبيت Chromium والمكتبات المطلوبة
 RUN apt-get update && apt-get install -y \
